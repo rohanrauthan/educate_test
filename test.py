@@ -1,10 +1,8 @@
 import sys, time
 
-a=[1,2,3,4]
-b=[]
-x=0
-for i in a:
-    x=x+i
-    b.append(x)
-print(b)
-print(a)
+a= 'NAvni'
+b=a[::-1].lower()
+if(b==a):
+    print("Palindrom")
+else:
+    print("Not a palindromr")
