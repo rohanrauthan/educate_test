@@ -6,3 +6,6 @@ if(b==a):
     print("Palindrom")
 else:
     print("Not a palindromr")
+
+a=[1]
+print(a)
