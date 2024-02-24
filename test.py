@@ -7,3 +7,4 @@ for i in a:
     x=x+i
     b.append(x)
 print(b)
+print(a)
